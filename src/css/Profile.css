@@ -1,0 +1,38 @@
+.Profile-Container{
+    height: 90vh;
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    border-bottom: 2px solid #333;
+}
+
+.Profile-Description-Container{
+    gap: 2rem;
+}
+
+.Profile-Description-Container h2{
+    font-size: 2.5vw;
+}
+.Profile-Description-Container h1{
+    font-size: 3.5vw;
+}
+
+.Profile-Name-Highlight{
+    background-color: #cccccc;
+}
+
+.Profile-Img-Container{
+    padding-left: 20px;
+    height: 400px;
+    width: 400px;
+}
+
+.Profile-Img-Container img{
+    border: 3px solid #333;
+    border-radius: 50%;
+    height: auto;
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.Contact-Container{
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #333;
+    height: 50vh;
+}
+
+.Contact-Name-Highlight{
+    background-color: #cccccc;
+}
+
+.Contact-Container-Block{
+    border-radius: 10px;
+    border: 3px solid #333;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+}
+
+.Contact-Block img{
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.Contact-Block a:link{
+    color:#333;
+}
+.Contact-Block a:visited{
+    color:#333;
+}
+
+.Contact-Block {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: row;
+    margin: 20px;
+}

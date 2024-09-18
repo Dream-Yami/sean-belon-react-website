@@ -1,0 +1,66 @@
+.About-Title-Container{
+    height: 15vh;
+    text-align: center;
+}
+
+.About-Container{
+    height: 75vh;
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    border-bottom: 2px solid #333;
+}
+
+.About-Img-Container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 600px;
+    width: 600px;
+}
+
+.About-Img-Container img{
+    border: 3px solid #333;
+    border-radius: 45%;
+    height: auto;
+    width: 100%;
+}
+
+.About-Description-Container{
+    flex: 3;
+}
+.About-Description-Container h2{
+    font-size: 1.5vw;
+}
+.About-Title-Container h2{
+    font-size: 2vw;
+}
+.About-Title-Container h1{
+    font-size: 2.5vw;
+}
+.About-Descrition-Text-Container{
+    border: 3px solid #333;
+    border-radius: 25px;
+    margin: 10px;
+    height: 20vh;
+}
+.About-Descrition-Text-Container h1{
+    font-size: 1vw;
+}
+.About-Descrition-Text-Container img{
+    height: 10vh;
+}
+.About-tophalf{
+    display: flex;
+    flex-direction: row;
+}
+
+.About-Name-Highlight{
+    background-color: #cccccc;
+}

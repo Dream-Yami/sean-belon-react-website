@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import "../css/Navbar.css"
 
 function Navbar(){
@@ -18,19 +18,19 @@ function Navbar(){
                     </div>
                     <ul className={click ? 'Nav-Menu Active' : 'Nav-Menu'}>
                         <li className="Nav-Item">
-                            <a href='/' className='Nav-Link' onClick={closeMobileMenu}> Home </a>
+                            <a href='#Home' className='Nav-Link' onClick={closeMobileMenu}> Home </a>
                         </li>
                         <li className="Nav-Item">
-                            <a href='/#About' className='Nav-Link' onClick={closeMobileMenu}> About </a>
+                            <a href='#About' className='Nav-Link' onClick={closeMobileMenu}> About </a>
                         </li>
                         <li className="Nav-Item">
-                            <a href='/#Projects' className='Nav-Link' onClick={closeMobileMenu}> Projects </a>
+                            <a href='#Projects' className='Nav-Link' onClick={closeMobileMenu}> Projects </a>
                         </li>
+                        {/* <li className="Nav-Item">
+                            <a href='#Skills' className='Nav-Link' onClick={closeMobileMenu}> Skills </a>
+                        </li> */}
                         <li className="Nav-Item">
-                            <a href='/#Skills' className='Nav-Link' onClick={closeMobileMenu}> Skills </a>
-                        </li>
-                        <li className="Nav-Item">
-                            <a href='/#Contacts' className='Nav-Link' onClick={closeMobileMenu}> Contacts </a>
+                            <a href='#Contacts' className='Nav-Link' onClick={closeMobileMenu}> Contacts </a>
                         </li>
                     </ul>
                 </div>

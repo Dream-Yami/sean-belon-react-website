@@ -1,0 +1,28 @@
+.Footer-Container{
+    position:relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #333;
+    height: 15vh;
+}
+
+.Footer-Links{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.Footer-Nav-Link {
+    color: #333;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 2rem;
+    height: 100%;
+}
